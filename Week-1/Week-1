@@ -43,3 +43,48 @@ This is the last process before the page is ready for end user. It involves draw
 
 Another final way of giving final picture of how the browser works found at hackernoon.
 
+## **What is the main functionality of the browser?**
+A web browser is an application that is used to present or recieve the information through world wide web.This information can be images ,videos web pages or any other file that can be read by url.It mostly includes HTML,CSS ,Javascript or any other languge containing certain information.Some  browser examples are microsoft edge,google chrome,internet explorer,safari,opera mini,etc.
+The main functions of web browser is to fetch or retrieve informative resources from World Wide Web to the client/ user on demand, translate those files received from web server and display those content to the user and allow the client /user to access all other relevant resources & information via hyperlinks.
+## **High Level Components of a browser.**
+The browser main components are:
+### **User Interface**: 
+This include address bar,forward,backward button,bookmarking menu, etc. Every part of the browser display except the window where you see the requested page.
+### **Browser Engine** :
+It helps in managing action between UI and rendering engine.
+### **Rendering Engine**:
+This engine is responsible for displaying the content on the screen.For example , if the requested content is HTML,the rendering engine parses the HTML and CSS ,and display the parsed content on screen.
+### **Networking**:
+For network calls such as HTTP requests, using different implementations for different platform behind a platform-independent interface.
+### **UI BACKEND**:
+Used for drawing basic widgets like combo boxes and windows.
+### **JavaScript interpreter**
+It is used to parse and execute JavaScript code.
+### **Data storage**
+ Here browser saves all sorts of data locally, such as cookies. Browsers also support storage mechanisms such as localStorage, IndexedDB, WebSQL and FileSystem.
+
+
+ Images
+
+ ![example](https://i.imgur.com/VcpjfPL.png)
+
+
+## **Rendering engine and its use**
+Rendering Engine As the name suggests, this component is responsible for rendering a specific web page requested by the user on their screen. It interprets HTML and XML documents along with images that are styled or formatted using CSS, and a final layout is generated, which is displayed on the user interface.
+
+![Uses](https://browserstack.wpenginepowered.com/wp-content/uploads/2019/11/Screenshot-2019-11-12-at-3.26.19-PM.png)
+![example](https://miro.medium.com/max/828/1*UcHkn6pPJtvQN-b3c23QIQ.webp)
+
+## **Parsers (HTML, CSS, etc)**
+With the help of parser the HTML code and CSS parses to form DOM tree and stylesheet.
+
+## **Script Processing ,Tree constructio, Order of script processing, Layout and Painting**
+
+Layout is a recursive process. It begins at the root renderer, and correspond to html elemet of the HTML document, and this process keeps working recursively to check how much space each element will take on the page. Output of the layout process is the box model.
+
+Paint
+
+This is the last process before the page is ready for end user. It involves drawing out text color, images, border every visual part of element. It is done onto multiple surface called layers.
+
+Another final way of giving final picture of how the browser works found at hackernoon.
+
